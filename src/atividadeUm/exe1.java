@@ -1,4 +1,4 @@
-package atividadeUm;
+package atividadeum;
 import java.util.Scanner;
 
 public class exe1 {
