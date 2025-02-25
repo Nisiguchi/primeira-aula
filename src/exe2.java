@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class exe2 {
+    public static void main(String[] args) {
+        
+        Scanner leia = new Scanner(System.in);
+        double n1, n2, n3, media;
+
+        System.out.println("Digite um número: ");
+        n1 = leia.nextDouble();
+
+        System.out.println("Digite um número: ");
+        n2 = leia.nextDouble();
+
+        System.out.println("Digite um número: ");
+        n3 = leia.nextDouble();
+
+        media = (n1 + n2 + n3)/3;
+
+        System.out.println("O resultado da média aritmética é: " + media);
+    }
+}
