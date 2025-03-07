@@ -13,9 +13,10 @@ public class exe1 {
         System.out.println("Entre com outro número: ");
         n2 = entrada.nextInt();
 
-        if (n1 > n2)
-        System.out.println("O número maior é: " + n1);    
-        else 
-        System.out.println("O número maior é: " + n2);
+        if (n1 > n2) {
+            System.out.println("O número maior é: " + n1);    
+        } else {
+            System.out.println("O número maior é: " + n2);
+        }
     }
 }
