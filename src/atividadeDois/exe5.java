@@ -16,6 +16,7 @@ public class exe5 {
 
         System.out.println("O triplo é: " + triplo);
         contar++;
+
         }
     }
 }
