@@ -20,7 +20,7 @@ public class exe9 {
 
             if (voto == 0) {
                 break;
-            } else if(voto ==13) {
+            } else if(voto == 13) {
                 voto13++;
             } else if (voto == 43) {
                 voto43++;

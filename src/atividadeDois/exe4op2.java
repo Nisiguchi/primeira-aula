@@ -1,0 +1,68 @@
+package atividadeDois;
+
+import java.util.Scanner;
+
+public class exe4op2 {
+    public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+        
+        int salario, codigo, novoSalario, aumento, diferenca;
+
+        System.out.println("Digite o código do seu cargo atual: ");
+        System.out.println("101 - gerente");
+        System.out.println("102 - engenheiro");
+        System.out.println("103 - técnico");
+        System.out.println("Indefinido - outro cargo");
+        codigo = entrada.nextInt();
+
+        if (codigo == 101) {
+            
+            System.out.println("Digite seu salário atual: ");
+            salario = entrada.nextInt();
+
+            aumento = salario + (salario*10/100);
+            diferenca = aumento - salario;
+
+            System.out.println("Seu salário era: " + salario + 
+            " Seu novo salário é: " + aumento + 
+            " A diferença adicionada foi: " + diferenca);
+
+        } else if (codigo == 102) {
+
+            System.out.println("Digite seu salário atual: ");
+            salario = entrada.nextInt();
+
+            aumento = salario + (salario*20/100);
+            diferenca = aumento - salario;
+
+            System.out.println("Seu salário era: " + salario + 
+            " Seu novo salário é: " + aumento + 
+            " A diferença adicionada foi: " + diferenca);
+
+        } else if (codigo ==103) {
+
+            System.out.println("Digite seu salário atual: ");
+            salario = entrada.nextInt();
+
+            aumento = salario + (salario*30/100);
+            diferenca = aumento - salario;
+
+            System.out.println("Seu salário era: " + salario + 
+            " Seu novo salário é: " + aumento + 
+            " A diferença adicionada foi: " + diferenca);
+
+        } else {
+
+            System.out.println("Digite seu salário atual: ");
+            salario = entrada.nextInt();
+
+            aumento = salario + (salario*40/100);
+            diferenca = aumento - salario;
+
+            System.out.println("Seu salário era: " + salario + 
+            " Seu novo salário é: " + aumento + 
+            " A diferença adicionada foi: " + diferenca);
+        }
+        entrada.close();
+    }
+}
