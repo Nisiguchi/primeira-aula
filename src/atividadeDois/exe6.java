@@ -10,7 +10,6 @@ public class exe6 {
 
         System.out.println("Digite 12 números: ");
         numero = entrada.nextInt();
-        0000000000
 
         for(contar = 0; contar<=11;) {
         contar++;
