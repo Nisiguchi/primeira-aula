@@ -6,7 +6,7 @@ public class exe4op1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
-        int salario, codigo, novoSalario, aumento, diferenca;
+        int salario, codigo, aumento, diferenca;
 
         System.out.println("Digite o código do seu cargo atual: ");
         System.out.println("101 - gerente");
