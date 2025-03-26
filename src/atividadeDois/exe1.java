@@ -18,5 +18,7 @@ public class exe1 {
         } else {
             System.out.println("O número maior é: " + n2);
         }
+
+        entrada.close();
     }
 }

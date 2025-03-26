@@ -36,5 +36,7 @@ public class exemplo1 {
                 }
                 System.out.println("Salario liquido é: " + salarioLiquido);
         }
+
+        entrada.close();
     }
 }

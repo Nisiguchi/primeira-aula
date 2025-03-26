@@ -18,5 +18,7 @@ public class exe2 {
         } else {
             System.out.println("Você recebeu um bônus! Seu salário ficou: " + bonusDois);
         }
+
+        entrada.close();
     }
 } 

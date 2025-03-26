@@ -33,5 +33,7 @@ public class exe3 {
             default:System.out.println("Digite 1 ,2 , 3 ou 4 para executar"); 
             
         }
+
+        entrada.close();
     }
 }
