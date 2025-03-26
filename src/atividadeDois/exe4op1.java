@@ -27,6 +27,7 @@ public class exe4op1 {
                 System.out.println("Seu salário era: " + salario + 
                 " Seu novo salário é: " + aumento + 
                 " A diferença adicionada foi: " + diferenca);
+                break;
             }
             case 102: {
                 System.out.println("Digite seu salário atual: ");
@@ -38,6 +39,7 @@ public class exe4op1 {
                 System.out.println("Seu salário era: " + salario + 
                 " Seu novo salário é: " + aumento + 
                 " A diferença adicionada foi: " + diferenca);
+                break;
             }
             case 103: {
                 System.out.println("Digite seu salário atual: ");
@@ -49,6 +51,7 @@ public class exe4op1 {
                 System.out.println("Seu salário era: " + salario + 
                 " Seu novo salário é: " + aumento + 
                 " A diferença adicionada foi: " + diferenca);
+                break;
             }
             default: System.out.println("Digite seu salário atual: ");
             salario = entrada.nextInt();

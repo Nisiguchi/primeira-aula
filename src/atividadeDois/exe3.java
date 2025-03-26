@@ -20,20 +20,39 @@ public class exe3 {
         System.out.println("'4' - Diferença do maior pelo menor");
         opcao = entrada.nextInt();
 
-        media = (n1 + n2)/2;
-        multi = n1 * n2;
-        divisao = n1 / n2 ;
-
         switch (opcao) {
 
-            case 1 :System.out.println("A média entre os números digitados é: "+ media); break;
-            case 2 :System.out.println(" A multiplicação entre os números digitados é: " + multi); break;
-            case 3 :System.out.println(" A divisão do primeiro pelo segundo é: " + divisao); break;
-            case 4 :System.out.println("A diferença do maior pelo  é: "); break;
+            case 1 :{
+
+                media = (n1 + n2)/2;
+                System.out.println("A média entre os números digitados é: "+ media); 
+                break;
+            }
+            case 2 :{ 
+
+                multi = n1 * n2;
+                System.out.println(" A multiplicação entre os números digitados é: " + multi);
+                break;
+            }
+            case 3 :{
+
+                divisao = n1 / n2 ;
+                System.out.println(" A divisão do primeiro pelo segundo é: " + divisao); 
+                break;
+            }
+            case 4 :{
+                if(n1>n2) {
+                    diferenca = n1 - n2;
+                    System.out.println("A diferença do maior pelo  é: " + diferenca); 
+                } else {
+                    diferenca = n2 - n1;
+                    System.out.println("A diferença do maior pelo  é: " + diferenca);
+                }
+                break;
+            }
             default:System.out.println("Digite 1 ,2 , 3 ou 4 para executar"); 
             
         }
-
         entrada.close();
     }
 }

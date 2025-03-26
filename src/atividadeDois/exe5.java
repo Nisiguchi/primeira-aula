@@ -14,9 +14,8 @@ public class exe5 {
         numero = entrada.nextInt();
         triplo = numero * 3;
 
-        System.out.println("O triplo é: " + triplo);
         contar++;
-
+        System.out.println("O triplo é: " + triplo);
         }
     }
 }
